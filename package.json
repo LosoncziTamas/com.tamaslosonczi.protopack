@@ -9,7 +9,6 @@
     "url": "https://github.com/LosoncziTamas"
   },
   "dependencies": {
-    "com.demigiant.dotween": "1.2.632",
     "com.unity.textmeshpro": "3.0.6"
   },
   "type": "tool",
