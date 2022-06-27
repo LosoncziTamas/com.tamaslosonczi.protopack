@@ -1,0 +1,17 @@
+{
+  "name": "com.tamaslosonczi.protopack",
+  "version": "0.1.0",
+  "displayName": "ProtoPack",
+  "description": "Utilities for development",
+  "author": {
+    "name": "Tam\u00e1s Losonczi",
+    "email": "losonczi.tamas91@gmail.com",
+    "url": "https://github.com/LosoncziTamas"
+  },
+  "dependencies": {
+    "com.demigiant.dotween": "1.2.632",
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "type": "tool",
+  "unity": "2021.2"
+}
