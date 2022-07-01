@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: New Punch Scale Tween Properties
   m_EditorClassIdentifier: 
   _duration: 0.4
-  _ease: 4
+  _ease: 25
   _looping: 0
   _loopCount: -1
   _loopType: 1
   _punch: {x: 1, y: 1, z: 1}
-  _vibrato: 100
-  _elasticity: 1
+  _vibrato: 1
+  _elasticity: 0.6

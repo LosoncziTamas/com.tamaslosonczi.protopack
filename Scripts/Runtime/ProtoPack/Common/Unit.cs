@@ -1,17 +1,18 @@
+using System;
 using UnityEngine;
 
 namespace ProtoPack.Common
 {
     public abstract class Unit : MonoBehaviour
     {
-        [SerializeField] private UnitContainer _unitContainer;
+        [SerializeField] protected UnitContainer _unitContainer;
 
-        private void Awake()
+        protected virtual void Awake()
         {
             _unitContainer.Add(this);
         }
 
-        private void OnDestroy()
+        protected virtual void OnDestroy()
         {
             _unitContainer.Remove(this);
         }

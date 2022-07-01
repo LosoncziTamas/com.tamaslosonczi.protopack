@@ -6,6 +6,7 @@ namespace ProtoPack.Common
     [CreateAssetMenu(menuName = "Proto Pack/Unit Container")]
     public class UnitContainer : ScriptableObject
     {
+        
         private readonly List<Unit> _units = new();
 
         public void Add(Unit unit)
@@ -18,10 +19,17 @@ namespace ProtoPack.Common
             return _units.Remove(unit);
         }
 
-        public List<Unit> GetUnitsWithTag(string tag)
+        /*
+        public Unit GetUnitWithEnumeration(Enumeration enumeration)
         {
-            var result = _units.FindAll(unit => unit.CompareTag(tag));
+            var result = _units.Find(unit => Equals(unit.Type, enumeration));
             return result;
         }
+        
+        public List<Unit> GetUnitsWithEnumeration(Enumeration enumeration)
+        {
+            var result = _units.FindAll(unit => Equals(unit.Type, enumeration));
+            return result;
+        }*/
     }
 }
