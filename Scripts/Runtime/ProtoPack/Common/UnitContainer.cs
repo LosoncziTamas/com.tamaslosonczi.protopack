@@ -6,8 +6,7 @@ namespace ProtoPack.Common
     [CreateAssetMenu(menuName = "Proto Pack/Unit Container")]
     public class UnitContainer : ScriptableObject
     {
-        
-        private readonly List<Unit> _units = new();
+        [SerializeField] private List<Unit> _units = new();
 
         public void Add(Unit unit)
         {
