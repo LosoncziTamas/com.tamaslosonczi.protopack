@@ -1,8 +1,8 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using ProtoPack.EditorUtility;
 using UnityEditor;
 using UnityEngine;
 
@@ -157,3 +157,4 @@ namespace ProtoPack.EditorUtility
         }
     }
 }
+#endif
