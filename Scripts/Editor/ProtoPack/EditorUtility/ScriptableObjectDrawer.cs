@@ -7,7 +7,7 @@ namespace ProtoPack.EditorUtility
     public class ScriptableObjectDrawer : PropertyDrawer
     {
         // Cached scriptable object editor
-        private Editor editor = null;
+        private UnityEditor.Editor editor = null;
  
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
